@@ -1,0 +1,17 @@
+# Arquivos e pastas específicos
+.env
+.no-header.php-cs-fixer.dist.php
+depfile.yaml
+phpstan-baseline.neon.dist
+spark
+
+# Pastas que podem ser geradas automaticamente
+/vendor/
+/writable/
+
+# Arquivos de sistema e de ambiente local
+*.log
+*.sqlite
+
+# Arquivos temporários
+*.tmp
