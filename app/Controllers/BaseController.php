@@ -60,9 +60,11 @@ abstract class BaseController extends Controller
     }
     
     // Smarty initial setup
-    private function initSmarty(){
+    private function initSmarty()
+    {
         $dirsConfig = \Config\SmartyConfig::$dirsConfig;
         $this->smarty = new Smarty();
+        
         $this->smarty->setTemplateDir($dirsConfig['templateDir']);
         $this->smarty->setCompileDir($dirsConfig['compileDir']);
         $this->smarty->setCacheDir($dirsConfig['cacheDir']);
@@ -70,7 +72,8 @@ abstract class BaseController extends Controller
     }
 
     // Render Template (View)
-    protected function smartyView($view, array $data = []){
+    protected function smartyView($view, array $data = [])
+    {
         $this->smarty->assign($data);
         $this->smarty->display(
             $this->smarty->getTemplateDir(0) . $view . '.' .

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0247f9792baba704dfbb1b3d67299d66",
+    "content-hash": "0fe59c926bbff4a41d50f005c898a18b",
     "packages": [
         {
             "name": "kint-php/kint",
@@ -185,16 +185,16 @@
         },
         {
             "name": "smarty/smarty",
-            "version": "v4.5.2",
+            "version": "v4.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/smarty-php/smarty.git",
-                "reference": "732040276609d0c3ad3381781c7444e7c5df9456"
+                "reference": "9e0536de18b53ba193364291ef0303b0ab9903e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/smarty-php/smarty/zipball/732040276609d0c3ad3381781c7444e7c5df9456",
-                "reference": "732040276609d0c3ad3381781c7444e7c5df9456",
+                "url": "https://api.github.com/repos/smarty-php/smarty/zipball/9e0536de18b53ba193364291ef0303b0ab9903e1",
+                "reference": "9e0536de18b53ba193364291ef0303b0ab9903e1",
                 "shasum": ""
             },
             "require": {
@@ -245,9 +245,9 @@
             "support": {
                 "forum": "https://github.com/smarty-php/smarty/discussions",
                 "issues": "https://github.com/smarty-php/smarty/issues",
-                "source": "https://github.com/smarty-php/smarty/tree/v4.5.2"
+                "source": "https://github.com/smarty-php/smarty/tree/v4.1.0"
             },
-            "time": "2024-04-05T22:34:05+00:00"
+            "time": "2022-02-06T20:34:27+00:00"
         }
     ],
     "packages-dev": [
